@@ -11,7 +11,7 @@ class Solution
             
         string temp = s1+s1;
         // Check if the second string is a substring of the concatenated string
-        bool b= temp.find(s2)!= string::npos;
+        bool b= temp.find(s2)!= string::npos; //or temp.contains(s2);
         return b;
     }
 };
